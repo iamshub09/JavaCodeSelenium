@@ -1,0 +1,49 @@
+
+
+
+public class UseDifferntClassMethods {
+
+	public static void main(String[] args) {
+		// create a object 
+		// className refVariable = keyword constructor 
+		
+		ClassAndObjects s1 = new ClassAndObjects();
+		s1.stdID = 101;
+		s1.stdName = "Shubham";
+		
+		/*
+		 * I HAVE DEFINE SCHOOL NAME VARIABLE AS STATIC. 
+		 * 
+		 * Now, the value of school name define by obj1 is W2A 
+		 * and the value will be copy again itself as W2A in obj2 because of use static keyword 
+		 * 
+		 * Idly if we not use static keyword then for obj2 value should be NULL. 
+		 * 
+		 * we can call static keyword by this statement also 
+		 * System.out.println(ClassAndObjects.schoolName);
+		 * 
+		 */
+		s1.schoolName = "W2A";
+		
+		
+		ClassAndObjects s2 = new ClassAndObjects();
+		s2.stdID = 102;
+		s2.stdName = "maa baap ki galti";
+		s2.schoolName="Lawrence";
+		
+		System.out.println(s1.stdName);
+		System.out.println(s2.stdName);	
+		System.out.println(s1.schoolName);
+		System.out.println(s2.schoolName);
+		System.out.println(ClassAndObjects.schoolName);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

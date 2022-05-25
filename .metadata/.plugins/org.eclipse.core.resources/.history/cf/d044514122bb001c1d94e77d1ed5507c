@@ -1,0 +1,36 @@
+
+public class ForLoop {
+	
+	
+	public static void main(String[] args) {
+		
+	for(int i=1; i<=17; i++) {
+	
+		if(i==3)
+		{
+			System.out.println("Shivam");
+		}
+		else if(i==9)
+		{
+			System.out.println("shubham");
+		}
+		else if(i==15)
+		{
+			System.out.println("Mukesh");
+		}
+		else if(i==17)
+		{
+			System.out.println("pooja");
+		}
+		else if(i==2)
+		{
+			System.out.println("Naina");
+		}
+		else 
+		{
+			System.out.println(i);
+		}
+	}
+
+	}
+}

@@ -1,0 +1,9 @@
+package Program7OOPS;
+
+public class Staff extends ParentClassSchool{
+
+	public void doMaintainace() {
+		System.out.println("please staff complete your maintainance");
+	}
+	
+}

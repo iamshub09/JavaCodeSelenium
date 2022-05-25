@@ -1,0 +1,29 @@
+
+public class Constructor {
+
+	int id;
+	String name;
+	
+	public Constructor() {
+	
+		System.out.println("This is parameterless constructor");
+		
+	}
+	
+	public Constructor(int stdID) {
+		
+		id =stdID;
+		System.out.println(id);
+		
+	}
+	
+	public Constructor(int stdID, String stdName) {
+		
+		id =stdID;
+		name = stdName;
+		System.out.println(id);
+		System.out.println(stdName);
+	}
+	
+	
+}

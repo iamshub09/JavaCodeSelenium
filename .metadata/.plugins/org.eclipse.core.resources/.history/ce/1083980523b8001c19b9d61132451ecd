@@ -1,0 +1,26 @@
+
+public class ClassAndObjects {
+
+	public void doExercise() {
+		
+	}
+	
+	public void doHomework() {
+		
+	}
+	
+	public void markAtt() {
+		
+	}
+	
+	public void attLec() {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+
+public class ClassAndObjects {
+
+	int stdID;
+	int rollNo;
+	long mobileNo;
+	String schoolName;
+	String stdName;
+	String bloodGroup;
+	
+	public void doExercise() {
+		System.out.println("please do exercise");
+	}
+	
+	public void doHomework() {
+		System.out.println("please do homework");
+	}
+	
+	public void markAtt() {
+		System.out.println("please mark attendence");
+	}
+	
+	public void attLec() {
+		System.out.println("please attend lecture");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

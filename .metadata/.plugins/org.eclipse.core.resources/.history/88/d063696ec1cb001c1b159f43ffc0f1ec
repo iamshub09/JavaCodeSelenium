@@ -1,0 +1,38 @@
+package Program7OOPS;
+
+public class OopsApp {
+
+	public static void main(String[] args) {
+	
+		//Objects created 
+		Student student1 = new Student();
+		Staff staff1 = new Staff();
+		Teachers teachers1 = new Teachers();
+		
+		
+		System.out.println("              ");
+		System.out.println("Student Class");
+		System.out.println("              ");
+		student1.doExercise();
+		student1.doLunch();
+		student1.attendLecture();
+		
+		System.out.println("              ");
+		System.out.println("teachers Class");
+		System.out.println("              ");
+		teachers1.doExercise();
+		teachers1.doLunch();
+		teachers1.deliverLecture();
+		
+		System.out.println("              ");
+		System.out.println("Staff Class also Implements Method Overriding");
+		System.out.println("              ");
+		staff1.doExercise(); // Method Overriding 
+		staff1.doLunch();
+		staff1.doMaintainace();
+		staff1.getClass();
+		
+		
+	}
+
+}

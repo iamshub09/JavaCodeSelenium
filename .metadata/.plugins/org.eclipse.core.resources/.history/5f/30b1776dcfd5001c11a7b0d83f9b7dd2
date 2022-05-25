@@ -1,0 +1,51 @@
+package StringDemo;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		String name = "shubham"; // string literal declaraction 
+		System.out.println(name);
+		name.concat("Mathur");
+		System.out.println(name);
+		
+		/*
+		 * Output : 
+		 * shubham
+		 * shubham
+		 * 
+		 * */
+		
+		// need to re-assing the value for update in the memory 
+		name= name.concat("Mathur");
+		System.out.println(name);
+		
+		/*
+		 * Output : 
+		 * shubham
+		 * shubham
+		 * shubhamMathur
+		 * 
+		 * */
+		
+		// string keyword declaraction 
+		String name2 = new String("Hello");
+		name2= name2.concat("World");
+		System.out.println(name2);
+		/*
+		 * shubham
+		 * shubham
+		 * shubhamMathur
+		 * HelloWorld
+		 * 
+		 * */
+		
+	
+	// 	String buffer 
+		StringBuffer bf = new StringBuffer("BOB");
+		bf.append(" the builder");
+		System.out.println(bf);
+		System.out.println(bf.deleteCharAt(3));
+	}
+
+}

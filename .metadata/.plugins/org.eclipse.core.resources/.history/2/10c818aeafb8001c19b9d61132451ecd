@@ -1,0 +1,23 @@
+
+
+
+public class UseDifferntClassMethods {
+
+	public static void main(String[] args) {
+		// create a object 
+		// className refVariable = keyword constructor 
+		
+		ClassAndObjects s1 = new ClassAndObjects();
+		s1.stdID = 101;
+		s1.stdName = "Shubham";
+		s1.schoolName ="Lawrence";
+		s1.age=25;
+		s1.bloodGroup="b+";
+		s1.mobileNo=9928860404;
+		
+		
+		
+
+	}
+
+}

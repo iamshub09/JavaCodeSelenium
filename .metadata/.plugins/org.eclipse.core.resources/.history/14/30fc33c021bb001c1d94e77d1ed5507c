@@ -1,0 +1,13 @@
+
+public class ForLoop {
+	
+	int a ; // Global Variable 
+
+	public static void main(String[] args) {
+		
+		int i; // local variable 
+
+		
+	}
+
+}

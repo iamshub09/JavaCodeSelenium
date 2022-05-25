@@ -1,0 +1,15 @@
+
+
+
+public class UseDifferntClassMethods {
+
+	public static void main(String[] args) {
+		// create a object 
+		// className refVariable = keyword constructor 
+		
+		ClassAndObjects s1 = new ClassAndObjects();
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package MethodOverloading;
+
+public class MethodOverloadingApp {
+
+	public static void main(String[] args) {
+		MethodOverloading obj1 = new MethodOverloading();
+		obj1.sum(10, 20);
+		obj1.sum(10, 10.5f, 10.5f);
+		obj1.sum("shubham", "devesh");
+		obj1.mul(5, 10);
+	}
+
+}

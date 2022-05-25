@@ -1,0 +1,38 @@
+package StringDemo;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		String name = "shubham"; // string literal declaraction 
+		System.out.println(name);
+		name.concat("Mathur");
+		System.out.println(name);
+		
+		/*
+		 * Output : 
+		 * shubham
+		 * shubham
+		 * 
+		 * */
+		
+		name= name.concat("Mathur");
+		System.out.println(name);
+		
+		/*
+		 * Output : 
+		 * shubham
+		 * shubham
+		 * shubhamMathur
+		 * 
+		 * */
+		
+		String name2 = new String("Hello");
+		name2= name2.concat("World");
+		System.out.println(name2);
+		
+		
+		String name3 = new String("Hello");
+	}
+
+}

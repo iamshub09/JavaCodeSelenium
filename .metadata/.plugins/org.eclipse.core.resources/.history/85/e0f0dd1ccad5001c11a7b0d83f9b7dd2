@@ -1,0 +1,14 @@
+package StringDemo;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		String name = "shubham"; // string literal declaraction 
+		System.out.println(name);
+		name.concat("Mathur");
+		System.out.println(name);
+
+	}
+
+}

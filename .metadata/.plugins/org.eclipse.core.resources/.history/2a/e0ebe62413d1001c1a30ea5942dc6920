@@ -1,0 +1,19 @@
+package EncapsulationDemo;
+
+public class Student {
+
+	private int id ; // r - no, w-no
+	private int rollNo ; // r - yes, w-no
+	private String name;// r - yes, w- yes
+	private long phoneNumber; // r - yes, w- yes
+	private static String schoolName; // r - yes, w- yes
+	
+	public String getName() { // getters
+		return name;
+	}
+	
+	public void setName(String name) { // setters
+		this.name = name;
+	}
+	
+}

@@ -1,0 +1,90 @@
+package StarPatten;
+
+public class Pattens {
+
+	
+	/*
+	 * 
+	 * *
+	 * **
+	 * ***
+	 * ****
+	 * 
+	 * */
+	
+	public void patten1() {
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+	
+	/*
+	 * 
+	 * ****
+	 * ***
+	 * **
+	 * *
+	 * 
+	 * */
+	public void patten2() {
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 4; j >= i; j--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+	
+	
+	/*
+	 *   *
+	 *   **
+	 *   ***
+	 *   ****
+	 *   ***
+	 *   **
+	 *   *
+	 * */
+	public void patten3() {
+		for (int i = 1; i <=4; i++) {
+			for (int j = 1; j <=i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	
+		for (int i = 1; i <=3; i++) {
+			for (int j = 1; j >=i; j--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	
+		}
+		
+	
+
+	public void patten4() {
+	
+	}
+
+	public void patten5() {
+		
+	}
+	
+	public void patten6() {
+		
+	}
+	
+	public void patten7() {
+		
+	}
+	
+	public void patten8() {
+		
+	}
+
+}

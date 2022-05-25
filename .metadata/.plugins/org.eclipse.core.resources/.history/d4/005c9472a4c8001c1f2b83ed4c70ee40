@@ -1,0 +1,15 @@
+package Program7OOPS;
+
+public class OopsApp {
+
+	public static void main(String[] args) {
+	
+		//Objects created 
+		Student student1 = new Student();
+		Staff staff1 = new Staff();
+		Teachers teachers1 = new Teachers();
+	
+	
+	}
+
+}
