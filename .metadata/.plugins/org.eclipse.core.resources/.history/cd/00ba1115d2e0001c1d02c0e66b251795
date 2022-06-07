@@ -1,0 +1,16 @@
+package FileHandling;
+
+public class BufferReaderExample {
+
+	public static void main(String[] args) {
+		/*
+		 * File reader is capable of reading complete line 
+		 * it is fast
+		 * 
+		 * */
+		String filePath;
+		filePath = "./src/FileHandling/testing.txt";
+		
+	}
+
+}

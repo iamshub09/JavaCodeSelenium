@@ -2,6 +2,7 @@
 public class Calculator {
 	
 	public void add() {
+		System.out.println("jai shree ram");
 	
 		System.out.println("this is addition");
 	}

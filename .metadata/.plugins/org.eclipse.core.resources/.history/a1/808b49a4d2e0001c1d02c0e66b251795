@@ -1,0 +1,23 @@
+package FileHandling;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class BufferReaderExample {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		/*
+		 * File reader is capable of reading complete line 
+		 * it is fast
+		 * 
+		 * */
+		String filePath;
+		filePath = "./src/FileHandling/testing.txt";
+		FileReader obj1 = new FileReader(filePath);
+		BufferedReader obj2 = new BufferedReader(obj1);
+		
+		
+	}
+
+}
